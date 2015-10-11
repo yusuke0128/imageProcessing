@@ -1,6 +1,5 @@
 import cv2
 import numpy as np
-import pylab as plt
 import sys  
   
 argvs=sys.argv  
