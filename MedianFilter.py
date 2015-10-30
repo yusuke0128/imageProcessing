@@ -9,7 +9,7 @@ if (len(argvs) != 2):
   
 imagefilename = argvs[1]  
 try:  
-    img=cv2.imread(imagefilename, 0)  
+    img=cv2.imread(imagefilename, 1)  
 except:  
     print 'faild to load %s' % imagefilename  
     quit()  
